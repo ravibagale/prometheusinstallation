@@ -22,6 +22,7 @@ EOF
 - systemctl status prometheus.service node_exporter.service
 - add port 9090 in security group
 - copy ec2 public IP and paste in browser with port no 9090
+- now you should see prometheus dashboard
 
 #sudo nano  /etc/prometheus/prometheus.yml
 
